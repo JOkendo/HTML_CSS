@@ -15,19 +15,8 @@ body{
   overflow: hidden;
   
 }
-a:link{
-  text-decoration: none;
-}
-a:visited{
-  color:pink;
-}
-a:hover{
-  background-color: green;
-  color: black;
-}
-a:active{
-  color: red;
-}
+
+
 #main-header{
   background-color: coral;
   color: white;
@@ -55,11 +44,11 @@ a:active{
 }
 #showcase{
   background-image: url(../images/bg1.png);
-  
-  background-repeat: repeat-x;
+  background-repeat: repeat;
   min-height: 300px;
   margin-bottom: 30px;
   text-align: center;
+  
 }
 #showcase h1{
   padding-top: 15px;
@@ -90,7 +79,9 @@ a:active{
 #main-footer p::first-letter{
   text-transform: uppercase;
 }
-#K{
-  b
-
+@media(max-width:600px){
+  #main, #sidebar{
+    float: none;
+    width: 100%;
+  }
 }
