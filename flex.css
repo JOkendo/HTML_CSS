@@ -1,0 +1,26 @@
+#main-header{
+    background-color: rgb(119, 159, 194);
+    width: inherit;
+}
+#navbar{
+margin: 0;
+padding: 0;
+flex-basis: 80%;
+background-color: #fff;
+}
+#navbar div{
+    justify-content: right ;
+}
+ul{
+    list-style-type: none;
+}
+#main-header div ul{
+display: flex;
+justify-content: space-between;
+flex-direction: row-reverse;
+flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
